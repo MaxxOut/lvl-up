@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="-10 -10 440 292"
+   id="svg12"
+   sodipodi:docname="ua.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:ns="http://purl.org/dc/terms/"
+   xmlns:voc="http://www.w3.org/1999/xhtml/vocab#">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3767123"
+     inkscape:cx="303.62189"
+     inkscape:cy="169.60697"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <title
+     xml:lang="ua"
+     id="title2">Прапор України</title>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <ns:title
+           xml:lang="ua">Прапор України</ns:title>
+        <ns:format>image/svg+xml</ns:format>
+        <ns:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <ns:creator>
+          <ns:Agent
+             rdf:about="http://purl.org/net/2008,frankbruder/id">
+            <ns:title>Frank Bruder</ns:title>
+          </ns:Agent>
+        </ns:creator>
+        <voc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <voc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     fill="#0057b8"
+     d="m 30,16 c 60,-18 120,-18 180,0 60,18 120,18 180,0 v 120 l -90,50 H 120 L 30,136 Z"
+     id="path8"
+     sodipodi:nodetypes="cscccccc" />
+  <path
+     fill="#ffd500"
+     d="m 30,136 c 60,-18 120,-18 180,0 60,18 120,18 180,0 v 120 c -60,18 -120,18 -180,0 -60,-18 -120,-18 -180,0 z"
+     id="path10"
+     sodipodi:nodetypes="csccscc" />
+</svg>

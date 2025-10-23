@@ -1,0 +1,71 @@
+{
+  "newOne": "New",
+
+  "enterWord": "Enter word...",
+  "enterTranslate": "Enter translate...",
+  "deleteWordMessage": "Remove this word from the dictionary?",
+  "clearDB": "Delete temporary database?",
+  "DBClearedSuccess": "The database was successfully cleared",
+  "DBClearedError": "An error occurred while trying to delete the database",
+  "DBCopiedSuccess": "Database copied successfully",
+  "DBCopiedError": "An error occurred while attempting to copy the database",
+  "home_start_error_1": "Not enough words to learn (need 4)",
+  "home_start_error_2": "Not enough words to repeat (need 8)",
+  "select_words_header": "Choose the words to study and their quantity",
+  "select_words_message_1": "No more learning words to replace",
+  "select_words_message_2": "You cannot learn more words at the same time",
+  "select_words_message_3": "No more learning words",
+  "select_words_message_4": "You cannot learn fewer words at the same time",
+  "translate_words_header": "Choose a word - translation",
+  "translate_words_exit": "Finish training?",
+  "word_constructor_header": "Make a word from the letters",
+  "word_write_header": "Enter the translation",
+  "results_header": "Results",
+
+  "buttons": {
+    "copy": "copy",
+    "clear": "clear"
+  },
+
+  "common": {
+    "start": "learn",
+    "blitz": "repeat",
+    "settings": "Settings",
+    "myWords": "my words",
+    "new": "New",
+    "common": "Common",
+    "empty": "There are no words in the library for the selected filter",
+
+    "all": "All",
+    "ignored": "Ignored",
+    "learned": "Learned",
+    "learning": "Learning",
+    "search": "Search",
+    "native": "Native",
+    "translate": "Translate",
+    "transcription": "Transcription",
+    "learned_one": "Learned",
+    "ignored_one": "Ignored",
+    "unlearned_one": "Unlearned"
+  },
+
+  "settings": {
+    "constructor": "Constructor",
+    "number_learn_words": "Number of words studied",
+    "writing": "Writing",
+    "repeating": "Repetition",
+
+    "number_repeat_words": "Number of words to repeat",
+    "saving": "Saving",
+
+    "error_get_local_settings": "Failed to load local settings",
+    "extra_letters": "Adding extra letters in the constructor",
+    "extra_letters_number": "Number of extra letters in the constructor",
+
+    "settings_headerSaving": "How this application stores the dictionary",
+    "learn_to_translated": "Translate to the language you are learning",
+    "learn_to_native": "Translate to your native language",
+    "text_1": "The app works only on the device, which imposes some restrictions on wordbase storage.",
+    "text_3": "Clear the data base."
+  }
+}

@@ -1,0 +1,91 @@
+:root {
+  --field-size: 4.8rem;
+  --field-padding: 0 2rem;
+}
+
+.custom-field__wrapper {
+  position: relative;
+}
+
+.custom-field__delete {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+}
+
+.custom-field {
+  height: var(--field-size);
+  line-height: var(--field-size);
+  margin: 0;
+  padding: var(--btn-padding);
+  width: 100%;
+
+  background: inherit;
+  border: 0;
+  border-radius: 0.8rem;
+  box-shadow:  inset 6px 6px 6px #d5d5d5, inset -6px -6px 6px #ffffff;
+  color: var(--color-gray);
+  font-family: var(--font);
+  font-size: 2.2rem;
+  font-weight: 400;
+  outline: 0;
+  cursor: pointer;
+}
+
+.custom-field_small {
+  --field-size: 3.6rem;
+  --field-padding: 0 0.4rem;
+  font-size: 1.8rem;
+}
+
+.textarea {
+  width: 100%;
+  background: inherit;
+  border: 0;
+  border-radius: 0.8rem;
+  box-shadow: inset 6px 6px 6px #d5d5d5, inset -6px -6px 6px #ffffff;
+  color: var(--color-gray);
+  font-family: var(--font);
+  font-weight: 400;
+  outline: 0;
+  
+  resize: vertical;
+  min-height: 8rem;
+  max-height: 16rem;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  padding: 1.6rem 4rem 1.6rem 1.6rem;
+  height: 63px;
+}
+
+.textarea_invisible {
+  /* Place in the top-left corner of screen regardless of scroll position. */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Ensure it has a small width and height. Setting to 1px / 1em
+     doesn't work as this gives a negative w/h on some browsers. */
+  width: 2em;
+  height: 2em;
+
+  /* We don't need padding, reducing the size if it does flash render. */
+  padding: 0;
+
+  /* Clean up any borders. */
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+
+  /* Avoid flash of the white box if rendered for any reason. */
+  background: transparent;
+
+  opacity: 0;
+}
+
+/* dark mode */
+.dark-mode .custom-field {
+  box-shadow: inset 6px 6px 6px #2b2b2b, inset -6px -6px 6px #353535;
+  color: var(--color-light-gray);
+}

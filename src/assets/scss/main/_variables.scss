@@ -1,0 +1,42 @@
+:root {
+  /* colors */
+  --color-white: #fff;
+  --color-gray: #555;
+  --color-light-gray: #c3c3c3;
+  --color-bg: #ededed;
+  --color-bg-dark: #303030;
+  --color-black: #000;
+  --color-orange: #ff9800;
+  --color-green: #4caf50;
+  --color-blue: #2196f3;
+  --color-red: #ff5722;
+
+  --bg-color: var(--color-bg);
+  --text-color: var(--color-black);
+  --btn-text-color: var(--color-gray);
+  --btn-shadow: 8px 8px 14px #d5d5d5, -8px -8px 14px #ffffff;
+  --switch-shadow:
+          4px 4px 8px #d5d5d5, -4px -4px 8px #fff,
+          inset 4px 4px 8px rgba(0, 0, 0, 0.25), inset -4px -4px 8px rgba(255, 255, 255, 0.25);
+  --switch-btn-color: var(--color-white);
+
+  /* shadow */
+  --shadow-1: 0 0 4rem rgba(0, 0, 0, 0.1);
+
+  /* font */
+  --font: roboto, sans-serif;
+
+  /*  */
+  --max-width: 40rem;
+}
+
+html[data-theme='dark'] {
+  --background-color: var(--color-bg-dark);
+  --text-color: var(--color-light-gray);
+  --btn-shadow: 8px 8px 14px #2b2b2b, -8px -8px 14px #353535;
+  --btn-text-color: var(--color-light-gray);
+  --switch-shadow:
+          4px 4px 8px #2b2b2b, -4px -4px 8px #353535,
+          inset 4px 4px 8px rgba(0, 0, 0, .25), inset -4px -4px 8px rgba(255, 255, 255, .25);
+  --switch-btn-color: var(--color-gray);
+}

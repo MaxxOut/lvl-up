@@ -1,0 +1,34 @@
+input[type=checkbox] {
+  display: none;
+}
+
+.custom-checkbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-checkbox {
+  margin: 1.5rem auto;
+}
+
+.custom-checkbox__content {
+  display: flex;
+  width: 200%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transition: transform 0.3s;
+}
+
+.custom-checkbox__content img {
+  width: 50%;
+  height: 100%;
+  padding: 0.4rem;
+}
+
+input[type=checkbox]:checked + .custom-checkbox .custom-checkbox__content {
+  /* left: auto;
+  right: 0; */
+  transform: translateX(-50%);
+}

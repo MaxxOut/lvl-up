@@ -1,0 +1,25 @@
+.stage {
+  --stage-color: var(--color-bg-dark);
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+
+.stage__item {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--stage-color);
+  border-radius: 50%;
+  background: transparent;
+}
+
+.stage__item_full {
+  background: var(--stage-color);
+}
+
+/* DARK THEME */
+.dark-mode .stage {
+  --stage-color: var(--color-bg);
+}

@@ -1,0 +1,32 @@
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  top: 0;
+  left: 1rem;
+  right: 1rem;
+
+  background: inherit;
+  border-radius: 0.8rem;
+  color: var(--color-gray);
+  font-weight: bold;
+  font-size: 1.8rem;
+
+  &__slot {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+}
+
+.dark-mode .header {
+  color: var(--color-light-gray);
+}
+
+.header img {
+  width: 10rem;
+}
